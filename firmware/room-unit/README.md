@@ -16,7 +16,17 @@ The following commands are available:
 - HUM_HIGH: when in AUTO or SURVEILLANCE mode, set target humidity to 75\%
 - SURVEILLANCE: when in surveillance mode, the fan works only if the sensed humidity is above the target value (either HUM_LOW, HUM_MID, or HUM_HIGH)
 
-| NEC     | Description |
-| ----------- | ----------- |
-| 0x42BD1BE4  | AIR_IN_HIGH       |
-| Paragraph   | AIR_IN_LOW        |
+| NEC         | Description      |
+| ----------- | ---------------- |
+| 0x42BD1BE4  | AIR_IN_HIGH      |
+|             | AIR_IN_LOW       |
+|             | AIR_OUT_HIGH     |
+|             | AIR_OUT_LOW      |
+|             | AUTO             |
+|             | FAN_LOW          |
+|             | FAN_MID  |
+|             | FAN_HIGH |
+|             | HUM_LOW  |
+|             | HUM_MID  |
+|             | HUM_HIGH |
+|             | SURVEILLANCE |
